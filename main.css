@@ -2,23 +2,106 @@
     box-sizing: border-box;
     direction: rtl;
     text-align: right;
-
+    font-family: "Arial (Hebrew)", Arial;
+    line-height: 1;
 }
 
 a {
-    text-decoration: blue;
+    text-decoration-line : none ;
+    /* text-decoration-color: white; */
+    color: white;
 }
 a:hover {
-    text-decoration: blue;
-
+    text-decoration-line : initial;
+    /* text-decoration: none blue; */
+    /* text-decoration-color: blue; */
+    color: blue;
 }
-
+/* a:visited {
+    text-decoration-color: white;
+    color: white;
+} */
 header {
     background-color: gray;
     height: 75px;
+    text-align: left;
 }
-main {
-    background-color: gray;
+.search {
+    text-align: left;
+padding-top: 15px;
+padding-left: 175px;
+}
+.container {
     height: 600px;
-    margin: 50px auto;
+    /* width: 900px;     */
+    text-align: center;
+    background-color: salmon;
+    /* margin: 50px auto;
+    padding: 0 auto; */
+    /* margin: 0 auto; */
+}
+
+/* .center-container {
+    margin: 0 auto;
+} */
+
+.row {
+    display: inline-block;
+    /* margin: 0 auto; */
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: right;
+    margin: 7px;
+    padding: 10px;
+    position: relative;
+} 
+
+.column > .summary {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    background-color: gray;
+    border-bottom-right-radius: 20px;
+    color: white;
+    margin: 0 5px 5px 47px;
+    padding: 5px;
+}
+
+.summary > h3 {
+    margin: 0;
+}
+
+.summary > p {
+    margin-top: 3px;
+}
+
+.column > img {
+    border-bottom-right-radius: 20px;
+}
+
+.summary {
+    display: block;
+}
+
+.size-12 {
+    font-size: 12px;
+}
+
+.size-13 {
+    font-size: 13px;
+}
+
+.size-14 {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
 }
