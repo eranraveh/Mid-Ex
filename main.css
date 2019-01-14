@@ -1,5 +1,24 @@
 * {
     box-sizing: border-box;
-    	direction: rtl;
-        text-align: right;
+    direction: rtl;
+    text-align: right;
+
+}
+
+a {
+    text-decoration: blue;
+}
+a:hover {
+    text-decoration: blue;
+
+}
+
+header {
+    background-color: gray;
+    height: 75px;
+}
+main {
+    background-color: gray;
+    height: 600px;
+    margin: 50px auto;
 }
