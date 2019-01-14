@@ -4,6 +4,8 @@
     text-align: right;
     font-family: "Arial (Hebrew)", Arial;
     line-height: 1;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -11,6 +13,7 @@ a {
     /* text-decoration-color: white; */
     color: white;
 }
+
 a:hover {
     text-decoration-line : initial;
     /* text-decoration: none blue; */
@@ -22,20 +25,71 @@ a:hover {
     color: white;
 } */
 header {
-    background-color: gray;
-    height: 75px;
+    background: #8C8C8C; 
+    height: 105px;
     text-align: left;
+    /* margin-bottom: 10px; */
 }
+
+.search-container {
+    text-align: center;
+    height: 35px;
+}
+
 .search {
     text-align: left;
-padding-top: 15px;
-padding-left: 175px;
+    padding-bottom: 0;
+    padding-left: 175px;
+}
+
+.menu-container {
+    text-align: center;
+    height: 50px;
+    padding-bottom: 0;
+    /* margin-bottom: 10px;
+    padding-bottom: 10px; */
+}
+
+.menu {
+    margin-top: 20px;
+    display: inline-block;
+    /* margin-bottom: 10px;
+    padding-bottom: 10px; */
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+li {
+    padding: 0 10px;;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu > ul > li > a:hover {
+    text-decoration-line: underline;
+}
+
+/* .menu > ul > li  {
+    margin-bottom: -5px;
+    padding-bottom: 5px;
+} */
+
+/* .menu > ul > li > a { */
+    /* margin-bottom: -5px;
+    padding-bottom: 5px; */
+/* } */
+
+.gradient {
+    height: 20px;
+    background: linear-gradient(to bottom,#8C8C8C, #A4A4A4 ) ;
 }
 .container {
     height: 600px;
     /* width: 900px;     */
     text-align: center;
-    background-color: salmon;
+    /* background-color: salmon; */
     /* margin: 50px auto;
     padding: 0 auto; */
     /* margin: 0 auto; */
@@ -58,16 +112,16 @@ padding-left: 175px;
 
 .column {
     float: right;
-    margin: 7px;
-    padding: 10px;
+    /* margin: 3px; */
+    padding: 7px;
     position: relative;
 } 
 
 .column > .summary {
     position: absolute;
-    bottom: 5px;
-    right: 15px;
-    background-color: gray;
+    bottom: 14px;
+    right: 13px;
+    background-color: rgba(128,128,128, 0.8)  ;
     border-bottom-right-radius: 20px;
     color: white;
     margin: 0 5px 5px 47px;
@@ -90,6 +144,27 @@ padding-left: 175px;
     display: block;
 }
 
+.summary > .readmore > a {
+    text-decoration-line: underline;
+}
+
+.summary > .readmore > a:hover > #readmore-normal {
+    display: none;
+}
+
+.summary > .readmore > a:hover > #readmore-hover {
+    display: inline-block;
+}
+
+.summary > .readmore > a > #readmore-hover {
+    display: none;
+}
+
+
+.readmore {
+    text-align: left;
+}
+
 .size-12 {
     font-size: 12px;
 }
@@ -100,6 +175,10 @@ padding-left: 175px;
 
 .size-14 {
     font-size: 14px;
+}
+
+.size-15 {
+    font-size: 15px;
 }
 
 .bold {
