@@ -52,7 +52,11 @@ header {
 #search-text {
     padding-right: 4px; 
     border-top-right-radius: 10px ;
+
 }
+::placeholder {
+    color: black;
+  }
 
 .menu-container {
     text-align: center;
@@ -144,7 +148,7 @@ footer {
         /* height: 20px; */
         background: linear-gradient(to top,#8C8C8C, #C4C4C4 ) ;
     /* } */
-    position: absolute;
+    position: sticky;
     /* left: 0; */
     bottom: 0;
     height: 35px;

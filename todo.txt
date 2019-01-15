@@ -3,4 +3,4 @@
 3, second row in content
 4. contact us  form
 
-5. sticky footer scrolls up after going down and up again
+---. sticky footer scrolls up after going down and up again
