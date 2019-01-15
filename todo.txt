@@ -1,6 +1,5 @@
-1. drop down menu
+1. drop down menu - gradient
 2. paz logo align with menu
-3, second row in content
 4. contact us  form
 
 ---. sticky footer scrolls up after going down and up again

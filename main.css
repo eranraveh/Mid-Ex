@@ -10,7 +10,7 @@
 }
 
 .cube  .readmore > a {
-    color: #8C8C8C;
+    color: #777777;
 }
 
 a {
@@ -290,6 +290,7 @@ footer li {
     color: #555555;
     text-align: center;
     margin-bottom: 25px;
+    padding-top: 10px;
 }
 
 .cube > img {
@@ -308,16 +309,20 @@ footer li {
     list-style: none;
     text-align: right;
     padding: 10px 15px 0px 0px;
+    width: 100%;
 }
 
 .right-panel ul > li {
     /* display: block; */
     text-align: right;
     direction: rtl;
+    width: 100%;
 }
 
 .right-panel ul > li a {
-    /* display: block; */
+    text-align: right;
+    display: block;
+    padding: 5px 5px;
     /* text-align: right; */
     width: 100%;
     /* direction: rtl; */
@@ -329,7 +334,7 @@ footer li {
 
 .left-panel {
     text-align: left;
-    width: 80%;
+    width: 75%;
 }
 
 .right-align {
