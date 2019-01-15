@@ -93,17 +93,25 @@ li > a {
     padding-bottom: 5px; */
 /* } */
 
-#home {
+#paz-logo {
+    position: absolute;
+    right: 14%;
+    top: 30px;
+    /* bottom: 40px; */
+        /* vertical-align: -90px; */
+}
+
+#home2 {
     /* width: 20px; */
-    /* height: 20px;; */
-    /* object-fit: fill; */
+    height: 15;;
+    object-fit: cover;
     vertical-align: -4px;
     /* margin-left: -10px; */
     /* overflow: hidden; */
-    /* clip-path: polygon(18px 33px,48px 33px,48px 0px,18px 0px); */
-    /* clip-path: polygon(18px 33px,32px 33px,32px 0px,18px 0px) ;
-    background-position: right 0;
-    width: 100%; */
+    /* clip-path: polygon(21px 33px,51px 33px,51px 0px,21px 0px); */
+    clip-path: polygon(18px 33px,32px 33px,32px 0px,18px 0px) ;
+    /* background-position: right 0; */
+    /* width: 100%; */
 }
 
 
@@ -117,13 +125,14 @@ li > a {
     background: linear-gradient(to bottom,#8C8C8C, #A4A4A4 ) ;
 }
 .container {
-    height: 600px;
+    /* height: 600px; */
     /* width: 900px;     */
     text-align: center;
     /* background-color: salmon; */
     /* margin: 50px auto;
     padding: 0 auto; */
     /* margin: 0 auto; */
+    margin-top: 25px;
 }
 
 /* .center-container {
