@@ -33,25 +33,28 @@ header {
 
 .search-container {
     text-align: center;
-    height: 35px;
+    height: 55px;
 }
 
 .search {
+    padding-top: 15px;
     text-align: left;
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
     padding-left: 175px;
+    display: block;
+    white-space: nowrap; 
 }
 
 .menu-container {
     text-align: center;
-    height: 50px;
+    height: 30px;
     padding-bottom: 0;
     /* margin-bottom: 10px;
     padding-bottom: 10px; */
 }
 
 .menu {
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     /* margin-bottom: 10px;
     padding-bottom: 10px; */
@@ -62,14 +65,23 @@ ul {
     list-style: none;
 }
 li {
-    padding: 0 10px;;
+    /* padding: 0 5px;; */
     display: inline-block;
-    list-style: none;
+    /* list-style: none;     */
 }
 
+li > a {
+    padding: 0 5px;
+}
 .menu > ul > li > a:hover {
     text-decoration-line: underline;
 }
+
+/* .separator {
+    background-image: url(images/menu_sep.png) ;
+    background-color: blue;
+    width: 5px;
+} */
 
 /* .menu > ul > li  {
     margin-bottom: -5px;
@@ -80,6 +92,25 @@ li {
     /* margin-bottom: -5px;
     padding-bottom: 5px; */
 /* } */
+
+#home {
+    /* width: 20px; */
+    /* height: 20px;; */
+    /* object-fit: fill; */
+    vertical-align: -4px;
+    /* margin-left: -10px; */
+    /* overflow: hidden; */
+    /* clip-path: polygon(18px 33px,48px 33px,48px 0px,18px 0px); */
+    /* clip-path: polygon(18px 33px,32px 33px,32px 0px,18px 0px) ;
+    background-position: right 0;
+    width: 100%; */
+}
+
+
+
+.separator > img {
+    vertical-align: -7px;
+}
 
 .gradient {
     height: 20px;
@@ -101,6 +132,7 @@ li {
 
 .row {
     display: inline-block;
+    
     /* margin: 0 auto; */
 }
 
@@ -125,7 +157,7 @@ li {
     border-bottom-right-radius: 20px;
     color: white;
     margin: 0 5px 5px 47px;
-    padding: 5px;
+    padding: 5px 8px;
 }
 
 .summary > h3 {
