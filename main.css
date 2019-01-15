@@ -45,6 +45,15 @@ header {
     white-space: nowrap; 
 }
 
+.search > a > img {
+    vertical-align: -5px; 
+}
+
+#search-text {
+    padding-right: 4px; 
+    border-top-right-radius: 10px ;
+}
+
 .menu-container {
     text-align: center;
     height: 30px;
@@ -120,10 +129,36 @@ li > a {
     vertical-align: -7px;
 }
 
+#fb > img {
+    vertical-align: -4px;
+}
+
 .gradient {
     height: 20px;
     background: linear-gradient(to bottom,#8C8C8C, #A4A4A4 ) ;
 }
+
+footer {
+    /* background: #8C8C8C;  */
+    /* .gradient { */
+        /* height: 20px; */
+        background: linear-gradient(to top,#8C8C8C, #C4C4C4 ) ;
+    /* } */
+    position: absolute;
+    /* left: 0; */
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+footer li {
+    color: white;
+}
+
+
+
 .container {
     /* height: 600px; */
     /* width: 900px;     */
@@ -201,6 +236,9 @@ li > a {
     display: none;
 }
 
+.align-bottom {
+    margin-top: 10px;
+}
 
 .readmore {
     text-align: left;
@@ -224,4 +262,8 @@ li > a {
 
 .bold {
     font-weight: bold;
+}
+
+.red {
+    color: red;
 }
