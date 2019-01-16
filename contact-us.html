@@ -5,7 +5,7 @@
     <title>צור קשר</title>
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="contact-us.css" />
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -274,30 +274,44 @@
                     <p>
                         * השדות המסומנים בכוכבית (*) הינם שדות חובה
                     </p>
-                    <form>
+                    <div class="central">
                         <div class="form-row">
                             <label for="fname">* שם פרטי</label>
                             <input type="text" id="fname" required>
+                            <div id="fname-invalid" class="invalid">
+                                שדה חובה
+                            </div>
                         </div>
                         <div class="form-row">
                             <label for="lname">* שם משפחה</label>
                             <input type="text" id="lname" required>
+                            <div id="lname-invalid" class="invalid">
+                                שדה חובה
+                            </div>
                         </div>
                         <div class="form-row">
                             <label for="phone">* טלפון</label>
                             <input type="text" id="phone" required pattern="^(?:0(?!5)(?:2|3|4|8|9))(?:-?\d){7}$|^(0(?=5)(?:-?\d){9})$">
+                            <div id="phone-invalid" class="invalid">
+                                שדה חובה
+                            </div>
                         </div>
                         <div class="form-row">
                             <label for="email">* E-mail</label>
                             <input type="email" id="email" required>
+                            <div id="email-invalid" class="invalid">
+                                שדה חובה
+                            </div>
                         </div>
                         <div class="form-row">
-                            <textarea id="free-text" cols="40" rows="5" placeholder="תוכן הפנייה">
+                            <textarea id="free-text" rows="8" placeholder="תוכן הפנייה"></textarea>
                         </div>
-
-                        
-                        <input type="button" onclick="formSend()" value="Register">
-                    </form>
+                        <!-- <a class="send-btn size-14" onclick="validateFields()" href="#">שלח</a> -->
+                        <div class="left">
+                            <br>
+                            <a class="send-btn size-14" onclick="validateFields()" href="#">שלח</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
