@@ -144,13 +144,7 @@ ul {
 }
 
 footer {
-    /* background: #8C8C8C;  */
-    /* .gradient { */
-        /* height: 20px; */
-    /* background: linear-gradient(to top,#8C8C8C, #C4C4C4 ) ; */
-    /* } */
-    position: sticky;
-    /* left: 0; */
+    position: fixed;
     bottom: 0;
     height: 35px;
     width: 100%;

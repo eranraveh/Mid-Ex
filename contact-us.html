@@ -1,11 +1,399 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Page Title</title>
+    <title>צור קשר</title>
     <link rel="stylesheet" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="contact-us.css" />
+    <!-- <script src="main.js"></script> -->
 </head>
+
 <body>
- 
+    <header>
+        <!-- search box and language -->
+        <div class="search-container">
+            <div class="search">
+                <a href="#" class="size-12 bold">English</a>
+                <input type="text" id="search-text" placeholder="רשום מילת חיפוש">
+                <!-- <button>
+                            <img src="images/search_button.png" alt="">
+                        </button> -->
+                <a href="#">
+                    <img src="images/search_button.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <a id="paz-logo" href="#">
+            <img src="images/paz_logo.png" />
+        </a>
+
+        <!-- top menu -->
+        <div class="menu-container">
+            <nav class="menu">
+
+                <ul class="size-15 bold">
+
+                    <li>
+                        <a href="#">
+                            <img id="home2" src="images/menu_home.png" />
+                        </a>
+                    </li>
+                    <li class="separator">
+                        <img src="images/menu_sep.png">
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">
+                            אודות
+                        </a>
+                        <nav class="dropdown-content ">
+                            <ul>
+                                <li class="height-20 gradient-up"> </li>
+                                <li class="submenu-border1  ">
+                                    <a href="#">אודות</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">היסטוריה</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">חזון וערכים</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">מבנה הקבוצה</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">חברי דירקטוריון</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">הנהלת הקבוצה</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">פרסים והוקרה</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </li>
+                    <li class="separator">
+                        <img src="images/menu_sep.png">
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">חטיבות</a>
+                        <nav class="dropdown-content ">
+                            <ul>
+                                <li class="height-20 gradient-up"> </li>
+                                <li class="submenu-border1  ">
+                                    <a href="#">חטיבות</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">קמעונאות ומסחר</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">תעשיות ושירותים</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">זיקוק</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </li>
+                    <li class="separator">
+                        <img src="images/menu_sep.png">
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">אחריות תאגידית</a>
+                        <nav class="dropdown-content ">
+                            <ul>
+                                <li class="height-20 gradient-up"> </li>
+                                <li class="submenu-border1  ">
+                                    <a href="#">אחריות תאגידית</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">הקוד האתי</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">מעורבות חברתית</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">נגישות</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">איכות הסביבה ובטיחות</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">דירוג מעלה</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </li>
+                    <li class="separator">
+                        <img src="images/menu_sep.png">
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">קשרי משקיעים</a>
+                        <nav class="dropdown-content ">
+                            <ul>
+                                <li class="height-20 gradient-up"> </li>
+                                <li class="submenu-border1  ">
+                                    <a href="#">פרופיל חברה</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">דו"חות כספיים</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">כלים למשקיע</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">נתוני מניה</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">אסיפות כלליות</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </li>
+                    <li class="separator">
+                        <img src="images/menu_sep.png">
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">התחנות שלנו</a>
+                        <nav class="dropdown-content ">
+                            <ul>
+                                <li class="height-20 gradient-up"> </li>
+                                <li class="submenu-border1  ">
+                                    <a href="#">התחנות שלנו</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">נגישות מתחמי פז</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">רשימת תחנות</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">מועדונים</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </li>
+                    <li class="separator">
+                        <img src="images/menu_sep.png">
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">קריירה</a>
+                        <nav class="dropdown-content ">
+                            <ul>
+                                <li class="height-20 gradient-up"> </li>
+                                <li class="submenu-border1  ">
+                                    <a href="#">לעבוד בפז</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">ניהול תחנות פז</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">קריירה</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="separator">
+                        <img src="images/menu_sep.png">
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">חדשות ומדיה</a>
+                        <nav class="dropdown-content ">
+                            <ul>
+                                <li class="height-20 gradient-up"> </li>
+                                <li>
+                                    <a href="#">פרסומות</a>
+                                </li>
+                                <li class="dropdown-separator"></li>
+                                <li>
+                                    <a href="#">הודעות לעיתונות</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <div class="gradient">
+        
+                    </div> -->
+        </div>
+        <div class="gradient-down">
+
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row fill center">
+            <div class="column right-side size-13">
+                <a href="contact-us.html">צור קשר </a>
+                <span id="arrow">&#9668;</span>
+            </div>
+
+            <!-- contact form -->
+            <div class="size-12 column contact-form">
+                <a href="index.html">עמוד הבית</a>
+                <span>> צור קשר</span>
+
+                <h2 class="size-15">צור קשר</h2>
+                <!-- form -->
+                <div class="form-div">
+                    <h2 class="size-15">צור קשר</h2>
+                    <h3 class="size-13">
+                        ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
+                    </h3>
+                    <p>
+                        * השדות המסומנים בכוכבית (*) הינם שדות חובה
+                    </p>
+                    <form>
+                        <div class="form-row">
+                            <label for="fname">* שם פרטי</label>
+                            <input type="text" id="fname" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="lname">* שם משפחה</label>
+                            <input type="text" id="lname" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="phone">* טלפון</label>
+                            <input type="text" id="phone" required pattern="^(?:0(?!5)(?:2|3|4|8|9))(?:-?\d){7}$|^(0(?=5)(?:-?\d){9})$">
+                        </div>
+                        <div class="form-row">
+                            <label for="email">* E-mail</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-row">
+                            <textarea id="free-text" cols="40" rows="5" placeholder="תוכן הפנייה">
+                        </div>
+
+                        
+                        <input type="button" onclick="formSend()" value="Register">
+                    </form>
+                </div>
+            </div>
+
+            <!-- contact details -->
+            <div class="column left-side">
+                <div class="small-box">
+                    <h3 class="size-15">פרטי יצירת קשר</h3>
+                    <p class="size-13">
+                        <span class="bold">פז חברת נפט בע"מ</span><br>
+                        יורו פארק, בניין הולנד<br>
+                        קיבוץ יקום 60972 <br>
+                        טל. שירות לקוחות 1-800-774-774<br>
+                        פקס.09-8641714
+                    </p>
+                </div>
+                <div class="small-box">
+                    <h3 class="size-15">עוד בפז</h3>
+                    <p class="size-13 bold">
+                        ליצירת קשר עם דוברות פז
+                    </p>
+                    <a class="size-13 blue" href="">לחצו כאן>></a><br>
+                    <p class="size-13 bold">
+                        רוצים לעבוד בפז?
+                    </p>
+                    <a class="size-13 blue" href="">לחצו כאן>></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="gradient-up">
+        <div class="align-bottom menu">
+            <ul>
+                <li>
+                    <a id="fb" href="http://www.facebook.com" target="_blank">
+                        <img src="images/fb_icon.png" alt="">
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="#">
+                        עמוד הבית
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="#">
+                        מחירונים
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="#">
+                        קריירה
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="#">
+                        תנאי שימוש
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="#">
+                        נגישות
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="#">
+                        מפת אתר
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="contact-us.html">
+                        צור קשר
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14" href="#">
+                        שטחי מסחר
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="size-14 red" href="#">
+                        הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
 </body>
+
 </html>
