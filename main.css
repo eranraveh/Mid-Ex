@@ -103,8 +103,9 @@ header {
 }
 
 .dropdown-content {
-    padding-top: 20px;
+    padding-top: 22px;
     margin-bottom: 5px;
+    margin-right: 10px;
     display: none;
     position: absolute;
     z-index: 100;
@@ -144,14 +145,15 @@ ul {
     vertical-align: -4px;
 }
 
+.gradient-height {
+    height: 15px;
+}
 .gradient-down {
-    height: 20px;
-    background: linear-gradient(to bottom, #8C8C8C, #cccccc);
+    background: linear-gradient(to bottom, #8C8C8C, #bbbbbb);
 }
 
 .gradient-up {
-    /* background: linear-gradient(to top,#8C8C8C, #C4C4C4 ) ; */
-    background: linear-gradient(to bottom, #cccccc, #8C8C8C);
+    background: linear-gradient(to bottom, #bbbbbb, #8C8C8C);
 }
 
 footer {
@@ -281,7 +283,8 @@ footer li {
 }
 
 .height-20 {
-    line-height: 40px;
+    /* line-height: 15px; */
+    display: inline-block;
 }
 
 .cube {
